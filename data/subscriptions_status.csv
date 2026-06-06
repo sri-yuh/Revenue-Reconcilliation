@@ -1,16 +1,221 @@
-customer_id,month,service_status,usage_flag
-C001,2026-05,Active,Yes
-C002,2026-05,Active,Yes
-C003,2026-05,Inactive,No
-C004,2026-05,Active,Yes
-C005,2026-05,Active,Yes
-C006,2026-05,Inactive,No
-C007,2026-05,Active,Yes
-C008,2026-05,Active,Yes
-C009,2026-05,Active,Yes
-C010,2026-05,Active,Yes
-C011,2026-05,Active,Yes
-C012,2026-05,Active,Yes
-C013,2026-05,Suspended,No
-C014,2026-05,Active,Yes
-C015,2026-05,Active,Yes
+customer_id,service_plan,service_status,activation_date,cancellation_date,cancellation_reason,delivery_owner,last_service_date
+CUST1000,Corporate Tax,Active,2025-03-07,2025-12-24,Non payment,Ops2,2026-01-17
+CUST1001,Bookkeeping,Active,2025-04-25,2025-12-17,Customer left,Ops2,2026-01-29
+CUST1002,Corporate Tax,Active,2024-08-22,2024-12-24,Non payment,Ops1,2026-01-09
+CUST1003,Corporate Tax,Active,2025-11-29,2027-01-01,Internal,Ops3,2026-01-03
+CUST1004,Bookkeeping,Active,2025-10-05,2026-01-28,Customer left,Ops1,2025-12-29
+CUST1005,Bookkeeping,Cancelled,2024-11-11,2025-10-04,Customer left,Ops1,2025-12-30
+CUST1006,Corporate Tax,Paused,2025-09-10,2025-12-22,Internal,Ops1,2025-12-22
+CUST1007,VAT,Active,2025-06-21,2026-09-27,Internal,Ops3,2025-12-22
+CUST1008,Corporate Tax,Paused,2024-08-20,2025-01-01,Internal,Ops1,2026-01-09
+CUST1009,Corporate Tax,Active,2024-08-28,2025-06-29,Non payment,Ops1,2026-01-25
+CUST1010,Corporate Tax,Active,2025-10-20,2026-09-07,Internal,Ops1,2026-01-29
+CUST1011,Corporate Tax,Active,2024-11-16,2025-08-25,Non payment,Ops1,2025-12-05
+CUST1012,Bookkeeping,Active,2024-12-23,2025-05-12,Customer left,Ops2,2025-12-31
+CUST1013,Corporate Tax,Paused,2024-11-09,2026-02-16,Customer left,Ops1,2026-01-01
+CUST1014,VAT,Active,2025-04-01,2026-01-29,Internal,Ops2,2026-01-14
+CUST1015,Bookkeeping,Active,2024-12-05,2025-08-02,Non payment,Ops1,2025-12-20
+CUST1016,VAT,Cancelled,2024-10-03,2025-10-02,Internal,Ops3,2026-01-25
+CUST1017,VAT,Active,2025-06-25,2026-08-26,Internal,Ops2,2025-12-22
+CUST1018,VAT,Active,2025-09-26,2026-03-10,Non payment,Ops2,2026-01-31
+CUST1019,VAT,Active,2024-07-04,2025-05-09,Internal,Ops2,2026-01-18
+CUST1020,Bookkeeping,Paused,2025-09-29,2026-12-10,Customer left,Ops2,2025-12-11
+CUST1021,Bookkeeping,Paused,2025-06-27,2026-03-30,Internal,Ops3,2025-12-31
+CUST1022,VAT,Active,2025-11-27,2026-12-10,Non payment,Ops1,2026-01-26
+CUST1023,VAT,Active,2024-12-30,2026-05-06,Non payment,Ops2,2025-12-24
+CUST1024,Bookkeeping,Active,2024-07-27,2024-11-21,Customer left,Ops3,2026-01-22
+CUST1025,Bookkeeping,Paused,2025-03-30,2026-07-11,Non payment,Ops2,2026-01-25
+CUST1026,Bookkeeping,Active,2025-05-31,2026-02-24,Non payment,Ops1,2026-01-06
+CUST1027,Corporate Tax,Active,2025-04-05,2026-03-13,Customer left,Ops2,2025-12-29
+CUST1028,Corporate Tax,Cancelled,2025-11-02,2026-06-05,Internal,Ops3,2026-01-02
+CUST1029,Corporate Tax,Active,2025-01-26,2025-10-19,Customer left,Ops1,2025-12-27
+CUST1030,VAT,Active,2024-12-02,2025-04-07,Internal,Ops3,2026-01-11
+CUST1031,Corporate Tax,Active,2025-12-15,2027-04-28,Customer left,Ops1,2026-01-15
+CUST1032,VAT,Cancelled,2025-07-10,2026-01-14,Internal,Ops1,2025-12-30
+CUST1033,VAT,Active,2024-12-03,2025-06-08,Customer left,Ops1,2026-01-22
+CUST1034,Corporate Tax,Active,2024-10-15,2025-05-19,Internal,Ops2,2025-12-12
+CUST1035,VAT,Active,2025-05-15,2026-01-27,Customer left,Ops3,2025-12-16
+CUST1036,Corporate Tax,Active,2025-10-19,2026-04-06,Internal,Ops3,2025-12-21
+CUST1037,Corporate Tax,Active,2025-04-13,2026-05-01,Customer left,Ops3,2025-12-12
+CUST1038,Bookkeeping,Active,2024-10-05,2025-12-01,Non payment,Ops1,2026-01-20
+CUST1039,Corporate Tax,Cancelled,2024-12-15,2025-07-18,Internal,Ops2,2025-12-07
+CUST1040,Bookkeeping,Active,2024-06-18,2025-08-24,Customer left,Ops1,2026-01-16
+CUST1041,Corporate Tax,Active,2024-08-15,2025-09-18,Internal,Ops3,2025-12-22
+CUST1042,Corporate Tax,Active,2025-01-01,2025-08-28,Internal,Ops2,2025-12-31
+CUST1043,Bookkeeping,Active,2025-08-12,2025-11-25,Customer left,Ops2,2026-01-17
+CUST1044,Bookkeeping,Cancelled,2025-10-26,2026-02-20,Internal,Ops2,2026-01-05
+CUST1045,Corporate Tax,Active,2025-09-26,2026-06-15,Customer left,Ops3,2026-01-04
+CUST1046,VAT,Active,2024-12-03,2025-04-17,Non payment,Ops2,2026-01-15
+CUST1047,Bookkeeping,Active,2025-12-09,2027-01-30,Internal,Ops2,2025-12-17
+CUST1048,VAT,Active,2024-09-21,2025-08-12,Non payment,Ops1,2025-12-04
+CUST1049,VAT,Active,2024-09-06,2025-07-06,Internal,Ops1,2025-12-13
+CUST1050,VAT,Active,2024-06-17,2024-12-08,Internal,Ops2,2025-12-05
+CUST1051,Bookkeeping,Paused,2025-08-05,2026-08-11,Internal,Ops2,2026-01-30
+CUST1052,VAT,Cancelled,2025-08-12,2026-06-29,Customer left,Ops1,2025-12-27
+CUST1053,Bookkeeping,Active,2024-06-13,2024-12-04,Non payment,Ops1,2025-12-13
+CUST1054,VAT,Cancelled,2025-11-25,2027-04-07,Internal,Ops1,2026-01-25
+CUST1055,Corporate Tax,Active,2025-09-16,2026-02-17,Customer left,Ops3,2026-01-19
+CUST1056,Corporate Tax,Active,2025-11-22,2026-07-03,Internal,Ops3,2026-01-17
+CUST1057,Bookkeeping,Active,2025-07-01,2026-02-26,Customer left,Ops1,2026-01-07
+CUST1058,Corporate Tax,Active,2024-12-01,2025-06-23,Internal,Ops2,2026-01-09
+CUST1059,Corporate Tax,Active,2025-05-25,2025-10-25,Non payment,Ops1,2026-01-10
+CUST1060,VAT,Active,2025-08-23,2026-10-29,Non payment,Ops3,2026-01-06
+CUST1061,Bookkeeping,Active,2025-07-24,2026-10-19,Internal,Ops2,2025-12-30
+CUST1062,VAT,Active,2025-06-02,2026-10-11,Customer left,Ops3,2026-01-21
+CUST1063,VAT,Active,2025-05-13,2026-07-28,Internal,Ops2,2026-01-22
+CUST1064,VAT,Paused,2025-12-25,2026-08-29,Customer left,Ops3,2026-01-07
+CUST1065,VAT,Active,2025-10-21,2026-04-05,Internal,Ops2,2025-12-26
+CUST1066,VAT,Active,2024-08-29,2025-04-21,Customer left,Ops2,2025-12-15
+CUST1067,VAT,Active,2025-04-25,2026-07-01,Non payment,Ops2,2025-12-20
+CUST1068,VAT,Active,2025-05-18,2026-03-28,Internal,Ops2,2025-12-10
+CUST1069,Bookkeeping,Cancelled,2024-08-02,2025-12-09,Non payment,Ops3,2025-12-25
+CUST1070,Corporate Tax,Active,2025-07-13,2026-08-19,Non payment,Ops3,2025-12-22
+CUST1071,VAT,Active,2025-07-19,2026-01-27,Internal,Ops2,2025-12-18
+CUST1072,VAT,Paused,2025-07-17,2026-11-25,Internal,Ops2,2026-01-08
+CUST1073,VAT,Active,2024-12-06,2026-02-15,Customer left,Ops3,2025-12-23
+CUST1074,VAT,Active,2025-06-23,2026-07-18,Customer left,Ops2,2025-12-17
+CUST1075,VAT,Active,2024-08-04,2025-01-28,Non payment,Ops2,2025-12-07
+CUST1076,VAT,Cancelled,2025-12-05,2027-03-10,Customer left,Ops2,2025-12-30
+CUST1077,Corporate Tax,Active,2025-07-22,2026-08-18,Customer left,Ops1,2026-01-15
+CUST1078,Corporate Tax,Active,2024-11-07,2025-07-22,Internal,Ops2,2026-01-08
+CUST1079,VAT,Active,2025-01-29,2025-10-15,Customer left,Ops1,2025-12-26
+CUST1080,Corporate Tax,Active,2024-08-25,2025-04-06,Non payment,Ops2,2025-12-06
+CUST1081,Bookkeeping,Active,2025-01-03,2025-05-22,Customer left,Ops3,2026-01-30
+CUST1082,VAT,Active,2025-01-26,2026-03-31,Non payment,Ops1,2025-12-31
+CUST1083,Bookkeeping,Active,2024-08-21,2025-10-31,Internal,Ops1,2025-12-06
+CUST1084,Bookkeeping,Cancelled,2024-08-10,2025-03-21,Non payment,Ops2,2026-01-08
+CUST1085,VAT,Paused,2025-02-10,2026-04-22,Customer left,Ops2,2026-01-23
+CUST1086,Corporate Tax,Active,2025-05-31,2026-01-12,Internal,Ops1,2026-01-28
+CUST1087,Bookkeeping,Paused,2025-03-08,2026-02-05,Customer left,Ops3,2026-01-15
+CUST1088,VAT,Active,2025-08-24,2026-03-10,Internal,Ops3,2026-01-15
+CUST1089,Bookkeeping,Active,2025-10-25,2026-12-01,Internal,Ops2,2025-12-10
+CUST1090,Bookkeeping,Active,2025-04-26,2026-05-07,Customer left,Ops3,2025-12-13
+CUST1091,Bookkeeping,Paused,2024-11-14,2025-03-04,Customer left,Ops3,2025-12-15
+CUST1092,Bookkeeping,Paused,2024-10-15,2025-04-12,Internal,Ops2,2026-01-02
+CUST1093,Corporate Tax,Active,2025-07-05,2026-07-25,Internal,Ops3,2025-12-23
+CUST1094,Bookkeeping,Cancelled,2025-07-20,2026-02-06,Customer left,Ops2,2025-12-05
+CUST1095,Bookkeeping,Active,2025-10-04,2026-10-29,Non payment,Ops1,2026-01-21
+CUST1096,Bookkeeping,Cancelled,2024-07-21,2025-01-03,Customer left,Ops2,2026-01-11
+CUST1097,Corporate Tax,Cancelled,2025-11-25,2026-08-18,Internal,Ops1,2026-01-11
+CUST1098,Bookkeeping,Active,2025-08-30,2026-11-05,Customer left,Ops1,2026-01-14
+CUST1099,Bookkeeping,Paused,2024-10-09,2025-06-03,Non payment,Ops3,2025-12-08
+CUST1100,Corporate Tax,Active,2025-07-14,2026-01-20,Customer left,Ops3,2026-01-03
+CUST1101,Corporate Tax,Active,2025-05-28,2026-04-28,Internal,Ops3,2026-01-08
+CUST1102,Corporate Tax,Active,2025-11-06,2026-05-31,Customer left,Ops2,2026-01-22
+CUST1103,Bookkeeping,Active,2024-09-14,2025-03-14,Internal,Ops3,2025-12-18
+CUST1104,Corporate Tax,Cancelled,2024-10-04,2026-02-06,Internal,Ops1,2026-01-15
+CUST1105,Corporate Tax,Active,2025-01-07,2025-05-04,Customer left,Ops3,2026-01-14
+CUST1106,Bookkeeping,Active,2026-01-02,2026-04-26,Internal,Ops3,2025-12-21
+CUST1107,Corporate Tax,Paused,2024-12-12,2025-05-08,Internal,Ops2,2025-12-15
+CUST1108,Bookkeeping,Cancelled,2025-01-20,2026-02-10,Non payment,Ops2,2026-01-12
+CUST1109,VAT,Active,2025-06-27,2026-02-05,Non payment,Ops1,2025-12-26
+CUST1110,Corporate Tax,Cancelled,2024-08-16,2025-10-10,Non payment,Ops2,2025-12-18
+CUST1111,VAT,Active,2025-06-26,2026-05-30,Non payment,Ops3,2026-01-14
+CUST1112,Bookkeeping,Paused,2024-08-13,2024-12-18,Internal,Ops2,2026-01-15
+CUST1113,Corporate Tax,Active,2024-12-30,2026-04-23,Customer left,Ops1,2026-01-23
+CUST1114,Bookkeeping,Active,2024-11-20,2025-05-03,Internal,Ops3,2026-01-18
+CUST1115,VAT,Active,2025-09-08,2026-04-27,Internal,Ops1,2025-12-14
+CUST1116,Bookkeeping,Active,2025-08-22,2026-10-07,Internal,Ops2,2026-01-03
+CUST1117,Corporate Tax,Active,2025-11-06,2026-07-21,Customer left,Ops2,2026-01-01
+CUST1118,Corporate Tax,Active,2024-06-26,2025-06-09,Non payment,Ops1,2026-01-28
+CUST1119,VAT,Active,2025-07-14,2026-10-19,Internal,Ops3,2026-01-14
+CUST1120,Bookkeeping,Cancelled,2025-08-07,2026-10-25,Internal,Ops2,2025-12-04
+CUST1121,Corporate Tax,Active,2025-10-15,2026-08-25,Non payment,Ops2,2026-01-12
+CUST1122,VAT,Active,2025-06-04,2026-01-31,Internal,Ops3,2025-12-07
+CUST1123,Corporate Tax,Active,2025-06-14,2025-09-30,Customer left,Ops2,2025-12-07
+CUST1124,Corporate Tax,Active,2025-05-19,2026-01-09,Internal,Ops1,2025-12-16
+CUST1125,Bookkeeping,Paused,2025-05-21,2026-04-16,Internal,Ops2,2025-12-20
+CUST1126,Corporate Tax,Paused,2024-07-20,2025-10-24,Non payment,Ops2,2025-12-19
+CUST1127,Bookkeeping,Active,2024-10-19,2026-02-01,Internal,Ops3,2026-01-23
+CUST1128,Corporate Tax,Active,2024-11-27,2026-02-03,Internal,Ops1,2026-01-19
+CUST1129,VAT,Paused,2025-11-17,2026-10-09,Customer left,Ops3,2026-01-17
+CUST1130,Corporate Tax,Active,2025-05-15,2025-09-16,Non payment,Ops2,2026-01-05
+CUST1131,Bookkeeping,Paused,2025-03-04,2025-12-08,Non payment,Ops2,2026-01-17
+CUST1132,Bookkeeping,Active,2024-07-26,2024-10-24,Customer left,Ops3,2026-01-04
+CUST1133,VAT,Paused,2025-08-13,2026-04-12,Internal,Ops3,2025-12-26
+CUST1134,Corporate Tax,Active,2024-11-14,2025-06-17,Non payment,Ops3,2025-12-08
+CUST1135,Corporate Tax,Active,2024-08-08,2025-10-16,Non payment,Ops1,2026-01-13
+CUST1136,VAT,Cancelled,2024-12-26,2026-04-29,Internal,Ops2,2026-01-06
+CUST1137,Corporate Tax,Active,2024-06-16,2025-04-27,Internal,Ops3,2025-12-11
+CUST1138,Corporate Tax,Active,2025-04-19,2026-02-23,Non payment,Ops2,2026-01-06
+CUST1139,Bookkeeping,Active,2024-09-19,2026-01-24,Internal,Ops1,2026-01-07
+CUST1140,Corporate Tax,Active,2025-12-22,2027-05-02,Non payment,Ops1,2026-01-06
+CUST1141,Corporate Tax,Active,2025-02-07,2025-12-04,Internal,Ops1,2026-01-06
+CUST1142,VAT,Active,2025-01-10,2025-05-04,Internal,Ops1,2025-12-17
+CUST1143,VAT,Active,2024-11-21,2025-03-06,Customer left,Ops2,2026-01-04
+CUST1144,Bookkeeping,Active,2024-12-26,2025-09-23,Internal,Ops1,2025-12-14
+CUST1145,Corporate Tax,Paused,2025-12-26,2027-02-17,Customer left,Ops1,2026-01-14
+CUST1146,Corporate Tax,Active,2025-09-03,2026-04-09,Internal,Ops3,2025-12-31
+CUST1147,Corporate Tax,Active,2025-01-20,2025-05-31,Non payment,Ops1,2025-12-10
+CUST1148,Bookkeeping,Active,2025-10-05,2027-02-09,Non payment,Ops3,2026-01-29
+CUST1149,Bookkeeping,Active,2025-02-21,2026-04-22,Internal,Ops1,2026-01-30
+CUST1150,VAT,Active,2025-07-09,2026-05-30,Internal,Ops1,2025-12-30
+CUST1151,Bookkeeping,Active,2024-07-12,2025-10-04,Non payment,Ops3,2025-12-21
+CUST1152,Corporate Tax,Active,2025-11-23,2027-03-29,Internal,Ops1,2026-01-13
+CUST1153,Corporate Tax,Active,2024-08-19,2024-12-20,Customer left,Ops2,2026-01-15
+CUST1154,Bookkeeping,Active,2025-08-11,2026-10-19,Customer left,Ops2,2025-12-19
+CUST1155,Corporate Tax,Active,2025-06-16,2026-09-29,Customer left,Ops1,2025-12-30
+CUST1156,Corporate Tax,Active,2024-09-29,2025-02-10,Customer left,Ops2,2026-01-20
+CUST1157,Bookkeeping,Active,2024-06-24,2025-02-02,Customer left,Ops3,2025-12-14
+CUST1158,Bookkeeping,Active,2024-07-05,2024-10-23,Internal,Ops1,2025-12-07
+CUST1159,Corporate Tax,Active,2025-04-25,2025-11-22,Internal,Ops1,2026-01-29
+CUST1160,Corporate Tax,Paused,2024-12-09,2025-05-17,Customer left,Ops3,2025-12-20
+CUST1161,Corporate Tax,Active,2025-04-22,2026-07-07,Internal,Ops3,2025-12-14
+CUST1162,VAT,Active,2024-10-10,2026-01-03,Internal,Ops3,2025-12-08
+CUST1163,VAT,Active,2025-12-24,2026-05-10,Customer left,Ops1,2026-01-06
+CUST1164,VAT,Active,2025-05-06,2025-09-11,Internal,Ops3,2025-12-28
+CUST1165,Bookkeeping,Active,2025-04-27,2026-05-08,Internal,Ops3,2026-01-24
+CUST1166,VAT,Active,2025-12-29,2026-04-07,Internal,Ops2,2025-12-11
+CUST1167,Bookkeeping,Cancelled,2025-09-06,2026-01-03,Customer left,Ops2,2025-12-27
+CUST1168,Bookkeeping,Active,2024-12-25,2025-11-23,Internal,Ops1,2025-12-10
+CUST1169,VAT,Cancelled,2025-10-30,2026-10-28,Non payment,Ops2,2025-12-09
+CUST1170,VAT,Active,2025-08-10,2026-02-03,Non payment,Ops2,2026-01-25
+CUST1171,VAT,Active,2025-05-24,2026-04-22,Customer left,Ops3,2025-12-17
+CUST1172,Corporate Tax,Active,2025-05-09,2026-08-22,Non payment,Ops3,2025-12-17
+CUST1173,VAT,Active,2025-07-10,2026-09-01,Customer left,Ops2,2025-12-27
+CUST1174,Corporate Tax,Active,2025-03-27,2025-07-09,Non payment,Ops2,2026-01-16
+CUST1175,Bookkeeping,Active,2025-11-01,2026-02-02,Non payment,Ops2,2026-01-08
+CUST1176,Corporate Tax,Active,2025-05-31,2026-03-07,Non payment,Ops1,2025-12-09
+CUST1177,VAT,Cancelled,2024-09-29,2025-06-13,Customer left,Ops1,2026-01-31
+CUST1178,Bookkeeping,Paused,2025-09-20,2025-12-27,Customer left,Ops1,2025-12-14
+CUST1179,Bookkeeping,Active,2025-09-26,2026-04-12,Internal,Ops2,2026-01-07
+CUST1180,Bookkeeping,Active,2024-08-10,2025-03-24,Customer left,Ops2,2026-01-22
+CUST1181,Corporate Tax,Active,2024-12-14,2025-08-14,Non payment,Ops1,2025-12-09
+CUST1182,VAT,Active,2024-11-24,2026-03-16,Non payment,Ops1,2026-01-16
+CUST1183,Bookkeeping,Active,2024-08-03,2025-05-28,Customer left,Ops2,2026-01-16
+CUST1184,Bookkeeping,Active,2024-09-14,2025-09-10,Customer left,Ops3,2025-12-05
+CUST1185,Bookkeeping,Active,2024-10-23,2025-06-12,Customer left,Ops1,2026-01-24
+CUST1186,Corporate Tax,Active,2025-12-11,2026-06-17,Internal,Ops2,2026-01-03
+CUST1187,Corporate Tax,Cancelled,2024-06-17,2025-09-26,Non payment,Ops2,2025-12-24
+CUST1188,VAT,Active,2024-10-02,2025-11-03,Internal,Ops3,2026-01-04
+CUST1189,Corporate Tax,Cancelled,2025-10-12,2026-03-19,Internal,Ops2,2026-01-26
+CUST1190,Bookkeeping,Active,2025-08-11,2026-07-13,Non payment,Ops2,2026-01-16
+CUST1191,VAT,Active,2025-10-10,2026-09-25,Non payment,Ops1,2026-01-12
+CUST1192,Bookkeeping,Active,2025-10-17,2026-10-17,Customer left,Ops1,2026-01-16
+CUST1193,Bookkeeping,Active,2024-10-03,2025-03-20,Customer left,Ops3,2026-01-25
+CUST1194,Corporate Tax,Active,2026-01-02,2026-08-25,Internal,Ops3,2025-12-22
+CUST1195,VAT,Active,2025-11-13,2026-06-01,Customer left,Ops2,2026-01-18
+CUST1196,Corporate Tax,Active,2024-10-14,2025-09-26,Customer left,Ops1,2025-12-20
+CUST1197,Corporate Tax,Active,2024-10-11,2025-04-11,Non payment,Ops3,2026-01-06
+CUST1198,VAT,Active,2024-09-02,2024-12-13,Non payment,Ops3,2026-01-06
+CUST1199,Bookkeeping,Active,2025-11-30,2026-11-14,Customer left,Ops3,2026-01-18
+CUST1200,Bookkeeping,Active,2025-01-20,2025-08-06,Non payment,Ops2,2026-01-25
+CUST1201,VAT,Active,2025-09-30,2026-11-23,Customer left,Ops1,2025-12-30
+CUST1202,Bookkeeping,Active,2025-10-23,2026-07-28,Non payment,Ops3,2026-01-06
+CUST1203,VAT,Active,2024-07-01,2025-01-01,Non payment,Ops1,2025-12-06
+CUST1204,VAT,Cancelled,2025-08-02,2026-02-12,Non payment,Ops3,2025-12-18
+CUST1205,Corporate Tax,Active,2025-04-28,2025-08-03,Non payment,Ops3,2026-01-12
+CUST1206,VAT,Paused,2024-10-22,2025-03-27,Customer left,Ops1,2026-01-29
+CUST1207,Corporate Tax,Active,2025-09-07,2026-06-14,Internal,Ops1,2025-12-11
+CUST1208,Bookkeeping,Active,2025-03-03,2026-06-01,Non payment,Ops1,2026-01-28
+CUST1209,Bookkeeping,Active,2025-04-10,2026-03-21,Customer left,Ops2,2026-01-06
+CUST1210,Bookkeeping,Active,2025-11-10,2026-02-16,Customer left,Ops3,2026-01-21
+CUST1211,Bookkeeping,Active,2025-05-12,2025-12-04,Non payment,Ops2,2026-01-30
+CUST1212,Corporate Tax,Paused,2024-12-10,2025-12-01,Internal,Ops1,2026-01-18
+CUST1213,Bookkeeping,Active,2024-11-28,2025-06-04,Non payment,Ops3,2025-12-19
+CUST1214,VAT,Active,2025-03-06,2026-03-28,Customer left,Ops2,2026-01-02
+CUST1215,VAT,Active,2025-06-10,2026-10-09,Internal,Ops3,2025-12-14
+CUST1216,VAT,Cancelled,2025-05-19,2026-01-27,Customer left,Ops2,2026-01-20
+CUST1217,Corporate Tax,Active,2025-10-20,2027-01-28,Non payment,Ops1,2026-01-06
+CUST1218,Bookkeeping,Active,2024-10-25,2025-06-12,Internal,Ops2,2025-12-19
+CUST1219,Bookkeeping,Active,2025-09-22,2026-09-14,Customer left,Ops3,2025-12-30
