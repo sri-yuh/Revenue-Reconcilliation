@@ -1,0 +1,16 @@
+customer_id,month,service_status,usage_flag
+C001,2026-05,Active,Yes
+C002,2026-05,Active,Yes
+C003,2026-05,Inactive,No
+C004,2026-05,Active,Yes
+C005,2026-05,Active,Yes
+C006,2026-05,Inactive,No
+C007,2026-05,Active,Yes
+C008,2026-05,Active,Yes
+C009,2026-05,Active,Yes
+C010,2026-05,Active,Yes
+C011,2026-05,Active,Yes
+C012,2026-05,Active,Yes
+C013,2026-05,Suspended,No
+C014,2026-05,Active,Yes
+C015,2026-05,Active,Yes

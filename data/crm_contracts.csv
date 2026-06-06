@@ -1,0 +1,16 @@
+customer_id,customer_name,contract_start_date,contract_end_date,monthly_contract_value,contract_status
+C001,Acme Corp,2025-01-15,,1200,Active
+C002,Beta LLC,2025-03-01,,800,Active
+C003,Globex Inc,2024-11-10,2026-05-20,1500,Cancelled
+C004,Initech,2025-06-01,,2000,Active
+C005,Umbrella Co,2025-02-15,,950,Active
+C006,Soylent LLC,2024-09-01,2026-05-10,600,Cancelled
+C007,Hooli,2026-05-05,,1100,Active
+C008,Vehement Capital,2025-07-20,,1750,Active
+C009,Massive Dynamic,2025-01-01,,2500,Active
+C010,Wonka Industries,2024-12-12,,700,Active
+C011,Stark Enterprises,2025-04-18,,3000,Active
+C012,Wayne Enterprises,2025-05-25,,1300,Active
+C013,Pied Piper,2025-08-09,,850,Active
+C014,Aviato,2025-10-01,,600,Active
+C015,Hooli XYZ,2025-11-11,,1450,Active
